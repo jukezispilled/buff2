@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import React, { useState } from 'react';
 import './App.css';
-import buffVideo from './buffonsol.mp4'; // Import the buff video
 import buffImage from './buff2.png'; // Import the buff imag
 
 function App() {
@@ -17,11 +16,7 @@ function App() {
 
   return (
     <div>
-    <div className="h-screen w-screen flex justify-center items-center text-6xl overflow-clip">
-      <video autoPlay loop muted className="absolute inset-0 object-cover w-full h-full z-[-1]">
-        <source src={buffVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <div className="h-screen w-screen flex justify-center items-center text-6xl overflow-clip bg-pink-500">
       <div className='grid text-center'>
         get $buff
         <div className='flex justify-center p-8'><img className="w-[40%]" src={buffImage} alt="Buff" /></div>
