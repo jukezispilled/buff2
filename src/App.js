@@ -8,7 +8,7 @@ function App() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("Bjj44cJrTMogwHvQ9sK8RaMeE5P3pALycMPdMws9gMfX");
+    navigator.clipboard.writeText("soon...");
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
