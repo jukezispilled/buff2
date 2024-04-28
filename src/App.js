@@ -26,7 +26,7 @@ function App() {
         get $buff
         <div className='flex justify-center p-8'><img className="w-[40%]" src={buffImage} alt="Buff" /></div>
         <div className='flex justify-center'>
-          <a href="" className='bg-[#f3f3f3] w-min py-4 px-6 rounded-full'>
+          <a href="https://raydium.io/swap/?outputCurrency=4g4Ut2qjprnhibgo9mcdB8yGchZ4J1VYz8DjnC4nurkY" className='bg-[#f3f3f3] w-min py-4 px-6 rounded-full'>
             buy
           </a>
         </div>
