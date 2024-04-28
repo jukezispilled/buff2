@@ -16,11 +16,11 @@ function App() {
 
   return (
     <div>
-    <div className="h-screen w-screen flex justify-center items-center text-6xl overflow-clip bg-pink-500">
-      <div className='grid text-center'>
+    <div className="h-screen w-screen flex justify-center items-center text-6xl overflow-clip bg-black">
+      <div className='grid text-center text-white'>
         get $buff
         <div className='flex justify-center p-8'><img className="w-[40%]" src={buffImage} alt="Buff" /></div>
-        <div className='flex justify-center'>
+        <div className='flex justify-center text-black'>
           <a href="https://raydium.io/swap/?outputCurrency=4g4Ut2qjprnhibgo9mcdB8yGchZ4J1VYz8DjnC4nurkY" className='bg-[#f3f3f3] w-min py-4 px-6 rounded-full'>
             buy
           </a>
