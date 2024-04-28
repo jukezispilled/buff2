@@ -5,7 +5,7 @@ import buffImage from './buff2.png'; // Import the buff imag
 
 function App() {
   return (
-    <div className="h-screen w-screen flex justify-center items-center text-6xl">
+    <div className="h-screen w-screen flex justify-center items-center text-6xl overflow-clip">
       <video autoPlay loop muted className="absolute inset-0 object-cover w-full h-full z-[-1]">
         <source src={buffVideo} type="video/mp4" />
         Your browser does not support the video tag.
