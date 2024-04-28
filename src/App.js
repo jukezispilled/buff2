@@ -23,11 +23,11 @@ function App() {
         Your browser does not support the video tag.
       </video>
       <div className='grid text-center'>
-        Get $buff
+        get $buff
         <div className='flex justify-center p-8'><img className="w-[40%]" src={buffImage} alt="Buff" /></div>
         <div className='flex justify-center'>
           <a href="" className='bg-[#f3f3f3] w-min py-4 px-6 rounded-full'>
-            Buy
+            buy
           </a>
         </div>
       </div>
@@ -35,7 +35,7 @@ function App() {
           <div className='h-min w-screen flex justify-center bg-[#f3f3f3]'>
           <div className='grid w-full'>
             <div className='pt-[10%] font-custom text-5xl md:text-6xl lg:text-8xl text-center'>
-              Tokenomics
+              tokenomics
             </div>
             <div className='flex justify-center w-full'>
               <div className='bg-black rounded-xl h-[300px] w-[75%] md:w-[65%] mt-[5%] mb-[5%]'>
