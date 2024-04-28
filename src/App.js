@@ -14,7 +14,7 @@ function App() {
         Get $buff
         <div className='flex justify-center p-8'><img className="w-[40%]" src={buffImage} alt="Buff" /></div>
         <div className='flex justify-center'>
-          <a href="" className='bg-[#f3f3f3] w-min p-4'>
+          <a href="" className='bg-[#f3f3f3] w-min py-4 px-6 rounded-full'>
             Buy
           </a>
         </div>
